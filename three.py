@@ -1,9 +1,8 @@
-a = 0
+a = int(input('Число'))
+b = 0
 
-while a < 300:
-    a += 1
-    if a % 2 != 1:    
+for i in range(0, a):
+    if i % 3 != 0:
         continue
-    print( a )
-    
-    
+    b += i
+print(b)

@@ -1,9 +1,10 @@
-a = 0
+a = int(input('Число'))
+for i in range(0, a, 2):
+    print(i)
 
-while a <= 100:
-    a += 1
-    if a % 2 != 0:    
-        continue
-    print( a )
     
+
+
+
+
     
