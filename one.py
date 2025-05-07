@@ -1,5 +1,7 @@
 a = int(input('Число'))
-b = 0
-for i in range(13, a, -1):
-    b += i
-print(b)
+
+for i in range(1, a + 1):
+    for j in range (1, i + 1):
+        print(j, end = '')
+    print()    
+   
